@@ -15,4 +15,8 @@ class DataViewContorller{
             this.#div.appendChild(div)
         }
     }
+
+    renderError(errorMessage) {
+        this.#div.textContent = errorMessage; // A fő div szövegét beállítjuk hibaüzenetre
+    }
 }
